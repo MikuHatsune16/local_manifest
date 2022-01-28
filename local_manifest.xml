@@ -4,25 +4,28 @@
       <remote name="ImPrashantt"
           fetch="https://github.com/ImPrashantt" />
       
-      <remote name="inferno964"
-          fetch="https://github.com/inferno964" />
+      <remote name="weebproject"
+          fetch="https://github.com/weebproject" />
       
       <remote name="stormbreaker-project"
           fetch="https://github.com/stormbreaker-project" />
       
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="ImPrashantt" revision="test"/>
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="ImPrashantt" revision="stag" />
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="ImPrashantt" revision="test" />
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="stormbreaker-project" revision="qti-oldcam-eas" />      
       
     <!-- Replacements -->
   
   <remove-project name="hardware_qcom-caf_msm8998_media"/>
-  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="inferno964" revision="twelve"/>
+  <project path="hardware/qcom-caf/msm8998/media" name="platform_hardware_qcom-caf_msm8998_media" remote="weebproject" revision="sushi"/>
       
   <remove-project name="hardware_qcom-caf_msm8998_display"/>
-  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="inferno964" revision="12"/>
+  <project path="hardware/qcom-caf/msm8998/display" name="platform_hardware_qcom-caf_msm8998_display" remote="weebproject" revision="sushi"/>
 
   <remove-project name="hardware_qcom-caf_msm8998_audio"/>
-  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="inferno964" revision="12"/>
+  <project path="hardware/qcom-caf/msm8998/audio" name="platform_hardware_qcom-caf_msm8998_audio" remote="weebproject" revision="sushi"/>
+
+  <remove-project name="bionic"/>
+  <project path="bionic" name="bionic-1" remote="ImPrashantt" revision="twelve"/>     
       
 </manifest>

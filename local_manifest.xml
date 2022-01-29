@@ -7,12 +7,12 @@
       <remote name="weebproject"
           fetch="https://github.com/weebproject" />
       
-      <remote name="stormbreaker-project"
-          fetch="https://github.com/stormbreaker-project" />      
+      <remote name="projects-nexus"
+          fetch="https://github.com/projects-nexus" />      
       
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="ImPrashantt" revision="test"/>
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="ImPrashantt" revision="test" />
-  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="stormbreaker-project" revision="qti-oldcam-eas" />      
+  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="projects-nexus" revision="eas-qti-oldcam" />      
       
     <!-- Replacements -->
   

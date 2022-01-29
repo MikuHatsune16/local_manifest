@@ -8,10 +8,7 @@
           fetch="https://github.com/weebproject" />
       
       <remote name="stormbreaker-project"
-          fetch="https://github.com/stormbreaker-project" />
-      
-      <remote name="LineageOS"
-          fetch="https://github.com/LineageOS" />      
+          fetch="https://github.com/stormbreaker-project" />      
       
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="ImPrashantt" revision="test"/>
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="ImPrashantt" revision="test" />
@@ -29,9 +26,6 @@
   <project path="hardware/qcom-caf/msm8998/audio" name="platform_hardware_qcom-caf_msm8998_audio" remote="weebproject" revision="sushi"/>
 
   <remove-project name="bionic"/>
-  <project path="bionic" name="bionic-1" remote="ImPrashantt" revision="twelve"/> 
-    
-  <remove-project name="packages_resources_devicesettings"/>
-  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-19.0"/>      
+  <project path="bionic" name="bionic-1" remote="ImPrashantt" revision="twelve"/>       
       
 </manifest>

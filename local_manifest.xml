@@ -4,15 +4,18 @@
       <remote name="ImPrashantt"
           fetch="https://github.com/ImPrashantt" />
       
+      <remote name="PixelExtended-Devices"
+          fetch="https://github.com/PixelExtended-Devices" />      
+      
       <remote name="weebproject"
           fetch="https://github.com/weebproject" />
       
-      <remote name="stormbreaker-project"
-          fetch="https://github.com/stormbreaker-project" />      
+      <remote name="RadiantDevices"
+          fetch="https://github.com/RadiantDevices" />      
       
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="ImPrashantt" revision="test"/>
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="ImPrashantt" revision="test" />
-  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="stormbreaker-project" revision="qti-oldcam-eas" />      
+  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="PixelExtended-Devices" revision="snow"/>
+  <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="PixelExtended-Devices" revision="snow" />
+  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="RadiantDevices" revision="twelve" />      
       
     <!-- Replacements -->
   

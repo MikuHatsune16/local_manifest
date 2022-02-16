@@ -11,5 +11,7 @@
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender-1" remote="ImPrashantt" revision="twelve" />
   <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="projects-nexus" revision="eas-caf-qti" />
   
+  <remove-project name="bionic"/>
+  <project path="bionic" name="bionic-1" remote="ImPrashantt" revision="radiant"/>      
   
 </manifest>

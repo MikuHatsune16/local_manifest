@@ -14,4 +14,10 @@
   <remove-project name="bionic"/>
   <project path="bionic" name="bionic-1" remote="ImPrashantt" revision="radiant"/>      
   
+  <remove-project name="hardware/qcom-caf/msm8996-R/display"/>
+      
+  <remove-project name="hardware/qcom-caf/msm8996-R/media"/>
+
+  <remove-project name="hardware/qcom-caf/msm8996-R/audio"/>
+
 </manifest>

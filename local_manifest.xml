@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-      <remote name="AbrarNoob"
-          fetch="https://github.com/AbrarNoob" />
+      <remote name="ImPrashantt"
+          fetch="https://github.com/ImPrashantt" />
 
-  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="AbrarNoob" revision="komodo" />
-  <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="AbrarNoob" revision="eleven" />
-  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="AbrarNoob" revision="oldcam-eas" />
+      <remote name="stormbreaker-project"
+          fetch="https://github.com/stormbreaker-project" />      
+
+      <remote name="ArrowOS"
+          fetch="https://github.com/ArrowOS" />   
+      
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="ImPrashantt" revision="test" />
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="ImPrashantt" revision="test" />
+  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="stormbreaker-project" revision="qti-oldcam-eas" />      
   
+  <remove-project name="platform_hardware_qcom_audio"/>
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="ArrowOS" revision="arrow-12.0-caf-msm8998" />      
   
+  <remove-project name="platform_hardware_qcom_display"/>
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ArrowOS" revision="arrow-12.0-caf-msm8998" />      
+
+  <remove-project name="platform_hardware_qcom_media"/>
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="ArrowOS" revision="arrow-12.0-caf-msm8998" />      
+
 </manifest>

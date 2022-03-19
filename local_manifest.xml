@@ -8,10 +8,18 @@
           fetch="https://github.com/PixelExtended-Devices" />      
       
       <remote name="RadiantDevices"
-          fetch="https://github.com/RadiantDevices" />      
+          fetch="https://github.com/RadiantDevices" />    
+      
+      <remote name="PixelExperience"
+          fetch="https://github.com/PixelExperience" />   
       
   <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="PixelExtended-Devices" revision="snow"/>
   <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="PixelExtended-Devices" revision="snow" />
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="RadiantDevices" revision="twelve" />      
+      
+    <!-- Replacements -->
+
+  <remove-project name="android_packages_resources_devicesettings"/>
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="PixelExperience" revision="twelve"/>
       
 </manifest>

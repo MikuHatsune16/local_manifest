@@ -18,7 +18,8 @@
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="RadiantDevices" revision="twelve" />      
       
     <!-- Replacements -->
-
+  <remove-project name="kernel"/>
+      
   <remove-project name="android_packages_resources_devicesettings"/>
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="PixelExperience" revision="twelve"/>
       

@@ -7,19 +7,22 @@
       <remote name="ArrowOS"
           fetch="https://github.com/ArrowOS" />   
       
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-1" remote="ImPrashantt" revision="twelve"/>
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender-1" remote="ImPrashantt" revision="twelve" />
+      <remote name="PixelExtended"
+          fetch="https://github.com/PixelExtended" />
+      
+  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="PixelExtended" revision="snow"/>
+  <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="PixelExtended" revision="snow" />
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="ImPrashantt" revision="twelve" />      
       
     <!-- Replacements -->
       
-  <remove-project name="platform_hardware_qcom_display"/>
+  <remove-project name="hardware_qcom-caf_msm8998_display"/>
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ArrowOS" revision="arrow-12.0-caf-msm8998"/>
       
-  <remove-project name="platform_hardware_qcom_audio"/>
+  <remove-project name="hardware_qcom-caf_msm8998_display"/>
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="ArrowOS" revision="arrow-12.0-caf-msm8998"/>
 
-  <remove-project name="platform_hardware_qcom_media"/>
+  <remove-project name="hardware_qcom-caf_msm8998_display"/>
   <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="ArrowOS" revision="arrow-12.0-caf-msm8998"/>
       
 </manifest>

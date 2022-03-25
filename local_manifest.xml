@@ -10,7 +10,7 @@
       <remote name="PixelExtended"
           fetch="https://github.com/PixelExtended" />
       
-  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="PixelExtended" revision="snow"/>
+  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="ImPrashantt" revision="snow"/>
   <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="PixelExtended" revision="snow" />
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="ImPrashantt" revision="twelve" />      
       

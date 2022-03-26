@@ -21,5 +21,8 @@
 
   <remove-project name="platform_hardware_qcom_media"/>
   <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="ArrowOS" revision="arrow-12.0-caf-msm8998"/>
-      
+     
+  <remove-project name="platform_bionic"/>
+  <project path="bionic" name="platform_bionic" remote="ImPrashantt" revision="arcadia"/>
+  
 </manifest>

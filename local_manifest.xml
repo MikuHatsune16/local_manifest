@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
 
-      <remote name="AbrarNoob"
-          fetch="https://github.com/AbrarNoob" />
-
-      <!-- Trees -->
-      <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="AbrarNoob" revision="test" />
-      <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="AbrarNoob" revision="eleven" />
-      <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="AbrarNoob" revision="eas-main" />
-  
-      
-</manifest>

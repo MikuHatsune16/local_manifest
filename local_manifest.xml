@@ -23,4 +23,7 @@
   <remove-project name="LineageOS/android_hardware_qcom_media"/>
   <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="ArrowOS" revision="arrow-12.1-caf-msm8998"/>
       
+  <remove-project name="device_spark_sepolicy"/>
+  <project path="device/spark/sepolicy" name="device_spark_sepolicy" remote="ImPrashantt" revision="spark"/>
+      
 </manifest>

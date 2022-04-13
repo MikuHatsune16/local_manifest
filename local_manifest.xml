@@ -5,15 +5,11 @@
           fetch="https://github.com/ImPrashantt" />        
       
       <remote name="ArrowOS"
-          fetch="https://github.com/ArrowOS" />   
-      
-      <remote name="Project-Awaken"
-          fetch="https://gitlab.com/Project-Awaken" />       
+          fetch="https://github.com/ArrowOS" />         
   
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-1" remote="ImPrashantt" revision="twelve"/>
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender-1" remote="ImPrashantt" revision="twelve" />
-  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="ImPrashantt" revision="eas-caf" /> 
-  <project path="vendor/gms" name="android_vendor_gms" remote="Project-Awaken" revision="12.1" />      
+  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="ImPrashantt" revision="eas-caf" />      
       
     <!-- Replacements -->
       

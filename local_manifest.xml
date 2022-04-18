@@ -2,10 +2,7 @@
 <manifest>
 
       <remote name="ImPrashantt"
-          fetch="https://github.com/ImPrashantt" />        
-      
-      <remote name="ArrowOS"
-          fetch="https://github.com/ArrowOS" />         
+          fetch="https://github.com/ImPrashantt" />               
   
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-1" remote="ImPrashantt" revision="twelve"/>
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender-1" remote="ImPrashantt" revision="twelve" />

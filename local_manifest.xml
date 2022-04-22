@@ -2,18 +2,10 @@
 <manifest>
 
       <remote name="ImPrashantt"
-          fetch="https://github.com/ImPrashantt" />
-      
-      <remote name="projects-nexus"
-          fetch="https://github.com/projects-nexus" />      
-      
-  <project path="device/realme/r5x" name="android_device_realme_r5x" remote="ImPrashantt" revision="master"/>
-  <project path="vendor/realme/r5x" name="android_vendor_realme_r5x" remote="ImPrashantt" revision="twelve" />
-  <project path="kernel/realme/r5x" name="kernel_realme_r5x" remote="projects-nexus" revision="RUI-OSS" />      
-      
-    <!-- Replacements -->
-
-  <remove-project name="bionic"/>
-  <project path="bionic" name="bionic-1" remote="ImPrashantt" revision="twelve"/>       
+          fetch="https://github.com/ImPrashantt" />               
+  
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-1" remote="ImPrashantt" revision="eleven"/>
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="ImPrashantt" revision="11" />
+  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="ImPrashantt" revision="eas-caf" />      
       
 </manifest>

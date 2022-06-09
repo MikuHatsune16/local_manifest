@@ -16,12 +16,6 @@
 
   <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="projects-nexus" revision="qti" />     
       
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" /> 
-      
-    <!-- Replacements -->
-      
-  <remove-project name="AICP/packages_resources_devicesettings" />
-      
-  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-19.1"/>      
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />       
       
 </manifest>

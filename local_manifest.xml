@@ -5,10 +5,19 @@
           fetch="https://github.com/Prashant-1695" /> 
       
       <remote name="STRMB"
-          fetch="https://github.com/stormbreaker-project" />      
+          fetch="https://github.com/stormbreaker-project" />  
+
+      <remote name="kdrag0n"
+          fetch="https://github.com/kdrag0n" />       
   
+<!-- Trees -->
+      
   <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="ImPrashantt" revision="11" />
   <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="ImPrashantt" revision="11" />
   <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="STRMB" revision="oldcam-eas" />      
+      
+<!-- extras -->
+      
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
       
 </manifest>

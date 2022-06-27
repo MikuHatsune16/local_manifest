@@ -2,10 +2,13 @@
 <manifest>
 
       <remote name="ImPrashantt"
-          fetch="https://github.com/ImPrashantt" />               
+          fetch="https://github.com/Prashant-1695" /> 
+      
+      <remote name="STRMB"
+          fetch="https://github.com/stormbreaker-project" />      
   
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="ImPrashantt" revision="eleven"/>
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="ImPrashantt" revision="11" />
-  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="ImPrashantt" revision="eas-caf" />      
+  <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="ImPrashantt" revision="11"/>
+  <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="ImPrashantt" revision="11" />
+  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="STRMB" revision="oldcam-eas" />      
       
 </manifest>

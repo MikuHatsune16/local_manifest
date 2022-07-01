@@ -4,16 +4,13 @@
       <remote name="ImPrashantt"
           fetch="https://github.com/Prashant-1695" /> 
       
-      <remote name="Miku"
-          fetch="https://github.com/MikuHatsune16" />  
-
-      <remote name="kdrag0n"
-          fetch="https://github.com/kdrag0n" />       
+      <remote name="nexus"
+          fetch="https://github.com/projects-nexus" />        
   
 <!-- Trees -->
       
   <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="ImPrashantt" revision="11" />
   <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="ImPrashantt" revision="11" />
-  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender-1" remote="Miku" revision="oldcam-eas" />      
+  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="nexus" revision="a12" />      
          
 </manifest>

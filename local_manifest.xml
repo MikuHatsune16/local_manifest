@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-      <remote name="ImPrashantt"
-          fetch="https://github.com/ImPrashantt" />           
-      
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-1" remote="ImPrashantt" revision="aosp"/>
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender-1" remote="ImPrashantt" revision="twelve" />
-  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="ImPrashantt" revision="eas-caf" />      
+      <remote name="Miku"
+          fetch="https://github.com/MikuHatsune16" />
 
-</manifest>      
+      <remote name="nexus"
+          fetch="https://github.com/projects-nexus" /> 
+      
+      <remote name="wHo-EM-i"
+          fetch="https://github.com/wHo-EM-i" />       
+      
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="Miku" revision="13-CLO" />
+      
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="Miku" revision="13-CLO" />
+
+  <project path="kernel/xiaomi/lavender" name="android_xtreme_kernel_lavender" remote="nexus" revision="topaz" />
+
+  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="android_hardware_qcom_audio" revision="13-4.4" remote="wHo-EM-i" clone-depth="1" />
+
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" revision="13-4.4" remote="wHo-EM-i" clone-depth="1" />
+
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" revision="13-4.4" remote="wHo-EM-i" clone-depth="1" />      
+      
+  <remove-project name="android_vendor_qcom-opensource_power" />
+
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom-opensource_power" revision="tokui" remote="Miku" clone-depth="1" />
+
+  <project path="prebuilts/clang/host/linux-x86/nexus-clang" name="project-nexus/nexus-clang" remote="gitlab" clone-depth="1" revision="nexus-14"/>
+
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um-1" remote="wHo-EM-i" revision="sushi" clone-depth="1" />
+
+</manifest>

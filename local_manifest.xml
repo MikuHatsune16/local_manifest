@@ -1,44 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-      <remote name="ImPrashantt"
-          fetch="https://github.com/ImPrashantt" />        
-      
-      <remote name="ArrowOS"
-          fetch="https://github.com/ArrowOS" />  
-      
-      <remote name="PixelExperience"
-          fetch="https://github.com/PixelExperience" />
-      
-  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-1" remote="ImPrashantt" revision="twelve"/>
-  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender-1" remote="ImPrashantt" revision="twelve" />
-  <project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="ImPrashantt" revision="eas-caf" />      
-      
-    <!-- Replacements -->
-      
-  <remove-project name="hardware_qcom-caf_msm8998_display"/>
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="ArrowOS" revision="arrow-12.1-caf-msm8998"/>
-      
-  <remove-project name="hardware_qcom-caf_msm8998_audio"/>
-  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="ArrowOS" revision="arrow-12.1-caf-msm8998"/>
+      <remote name="Miku"
+          fetch="https://github.com/MikuHatsune16" />  
 
-  <remove-project name="hardware_qcom-caf_msm8998_media"/>
-  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="ArrowOS" revision="arrow-12.1-caf-msm8998"/>
+      <remote name="nexus"
+          fetch="https://github.com/projects-nexus" />     
       
-  <remove-project name="build"/>
-    <project path="build/make" name="build" remote="ImPrashantt" revision="twelve">
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
-  <project path="build/soong" name="build_soong" remote="PixelExperience" revision="twelve">
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
-  <project path="build/blueprint" name="build_blueprint" remote="PixelExperience" revision="twelve" />
-      
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender-1" remote="Miku" revision="12.1" />
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender-1" remote="Miku" revision="12.1" />
+  <project path="kernel/xiaomi/lavender" name="nexus_kernel_xiaomi_lavender" remote="nexus" revision="qti" />      
+  
 </manifest>
